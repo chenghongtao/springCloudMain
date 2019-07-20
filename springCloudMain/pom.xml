@@ -21,6 +21,7 @@
 		<module>EurekaServer</module>
 		<module>EurekaClient</module>
     <module>caller</module>
+    <module>feigncaller</module>
   </modules>
 
 

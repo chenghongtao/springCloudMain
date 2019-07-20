@@ -20,6 +20,6 @@ public class TestController {
 	public String test() {
         List<String> services=client.getServices();
         services.stream().forEach(item->System.out.println(item));
-		return null;
+		return services.toString();
 	}
 }
